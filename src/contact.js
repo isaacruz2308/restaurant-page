@@ -5,6 +5,9 @@ function createContactForm() {
   // Get the contact container
   const content = document.getElementById("content");
 
+  // Create and append headline
+  const headline = document.createElement("h1");
+  headline.textContent = "Contact Us";
   // Create and append contact form
   const contactForm = document.createElement("form");
   contactForm.innerHTML = `
